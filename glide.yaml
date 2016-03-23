@@ -1,0 +1,8 @@
+package: github.com/brycefisher/glide-nested-dependencies
+import:
+- package: github.com/aws-aws-sdk-go
+  version: v1.1.13
+  subpackages:
+  - aws
+  - aws/session
+  - service/s3
